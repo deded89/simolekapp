@@ -1,0 +1,44 @@
+.alert-success{
+  background-color: #a4ffa3 !important;
+  color: #22b34f !important;
+  border-color: #008d4c;
+}
+
+.alert-danger{
+  background-color: #fbd3d3 !important;
+  color: #cc031e !important;
+  border-color: #f30d0d;
+}
+
+.alert-info {
+    background-color: #c0dfff !important;
+    color: #08909e !important;
+    border-color: #0499b1;
+}
+
+.alert {
+  border-radius: 0;
+  font-weight: 600;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.alert-dismissible {
+    padding-right: 35px;
+}
+
+.select2-container--default.select2-container--focus{
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.bottom-row-margin {
+  margin-bottom: 10px;
+}
+
+.no-left-right-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
