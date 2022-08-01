@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: sql109.epizy.com
--- Waktu pembuatan: 26 Jul 2022 pada 03.39
+-- Waktu pembuatan: 01 Agu 2022 pada 03.50
 -- Versi server: 10.3.27-MariaDB
 -- Versi PHP: 7.2.22
 
@@ -1969,7 +1969,44 @@ INSERT INTO `kondisi_img` (`id`, `filename`, `pekerjaan`, `kondisi`, `deskripsi_
 (2088, '0_937_1657600753.png', 937, 0, 'Jl. Kelayan Besar 2'),
 (2089, '0_937_1657600904.png', 937, 0, 'Jbt. Muara Tatah Belayung'),
 (2090, '5_902_1658091751.jpg', 902, 5, 'Mulai pelaksanaan pemancangan galam'),
-(2091, '5_902_1658091874.jpg', 902, 5, 'Mulai pelaksanaan pemancangan galam');
+(2091, '5_902_1658091874.jpg', 902, 5, 'Mulai pelaksanaan pemancangan galam'),
+(2092, '0_861_1658825565.jpg', 861, 0, '0% '),
+(2093, '0_861_1658825655.jpg', 861, 0, '0% (1)'),
+(2094, '0_861_1658825753.jpg', 861, 0, '0% (2)'),
+(2095, '0_859_1658895938.jpg', 859, 0, '0% (Persiapan)1'),
+(2096, '0_859_1658896179.jpg', 859, 0, '0% (Persiapan)2'),
+(2097, '0_859_1658896226.jpg', 859, 0, '0% (Persiapan)3'),
+(2098, '20_902_1658994059.jpg', 902, 20, 'Pembangunan ponadasi lantai'),
+(2099, '20_902_1658994084.jpg', 902, 20, 'Pembangunan ponadasi lantai'),
+(2100, '0_934_1659060081.jpg', 934, 0, 'Jl. Alalak Selatan'),
+(2101, '0_934_1659061562.jpg', 934, 0, 'Jl. Kuin Utara'),
+(2102, '0_934_1659061604.jpg', 934, 0, 'Jl. Pangeran'),
+(2103, '0_935_1659061830.jpg', 935, 0, 'Jl. Museum Wasaka'),
+(2104, '0_935_1659061878.jpg', 935, 0, 'Komp. Mahligai Sejahtera'),
+(2105, '0_935_1659061991.jpg', 935, 0, 'Gg. Sedap Malam'),
+(2106, '0_935_1659062026.jpg', 935, 0, 'Gg. Anggrek'),
+(2107, '0_935_1659062548.jpg', 935, 0, 'Gg. Melati'),
+(2108, '0_935_1659062650.jpg', 935, 0, 'Komp. Pandan Arum'),
+(2109, '0_935_1659062686.jpg', 935, 0, 'Gg. Mulia'),
+(2110, '0_935_1659062735.jpg', 935, 0, 'Gg. Barito'),
+(2111, '0_935_1659062786.jpg', 935, 0, 'Gg. Ruhuy Rahayu'),
+(2112, '0_935_1659062833.jpg', 935, 0, 'Jl. Malkon Temon'),
+(2113, '0_935_1659064503.jpg', 935, 0, 'Jl. Malkon Temon III'),
+(2114, '0_935_1659064573.jpg', 935, 0, 'Jl. Malkon Temon IV'),
+(2115, '0_935_1659064736.jpg', 935, 0, 'Jl. Malkon Temon V'),
+(2116, '0_935_1659064813.jpg', 935, 0, 'Komp. Taekwondo Permai'),
+(2117, '0_936_1659064934.jpg', 936, 0, 'Komp. Arraudah'),
+(2118, '0_936_1659065001.jpg', 936, 0, 'Komp. Arraudah R4'),
+(2119, '0_936_1659065044.jpg', 936, 0, 'Komp. Arraudah R2'),
+(2120, '0_936_1659065170.jpg', 936, 0, 'Komp. Arraudah R3'),
+(2121, '0_936_1659065217.jpg', 936, 0, 'Komp. Bina Bersama'),
+(2122, '0_936_1659070837.jpg', 936, 0, 'Komp. Tata Banua Indah'),
+(2123, '3_861_1659311797.jpg', 861, 3, '3,86% (1)'),
+(2124, '3_861_1659311841.jpg', 861, 3, '3,86% (2)'),
+(2125, '3_861_1659311875.jpg', 861, 3, '3,86% (3)'),
+(2126, '3_859_1659323635.jpg', 859, 3, '3,86% (1)'),
+(2127, '3_859_1659323667.jpg', 859, 3, '3,86% (2)'),
+(2128, '3_859_1659323698.jpg', 859, 3, '3,86% (3)');
 
 -- --------------------------------------------------------
 
@@ -2606,7 +2643,21 @@ INSERT INTO `kontrak` (`id`, `nomor`, `tanggal`, `penyedia`, `nilai`, `lama`, `a
 (718, '07/DPUPR-BJJb-PPK-PBJ.P3/2022', '2022-07-14', 'CV. MULTI KONSTRUKSI LESTARI', '3938463000.00', '150 Hari Kalender', '2022-07-18', '2022-12-14', 'Tanggal Kontrak', 936),
 (719, '07/DPUPR-BJJb-PPK-PTPJJb-Was.DAK.Reguler/2022', '2022-06-22', 'CV. TIKA KREATIF DESAIN KONSULTAN', '273293000.00', '150 Hari Kalender', '2022-06-29', '2022-11-25', 'Tanggal Kontrak', 788),
 (720, '07/DPUPR-BJJb-PPK-PJMS.BA/2022', '2022-07-15', 'CV. OKTAVIANCA', '763345000.00', '150 Hari Kalender', '2022-07-19', '2022-12-15', 'Tanggal Kontrak', 734),
-(721, '07/DPUPR-BJJb-PPK-Pemb.JL.SG.TMMD/2022', '2022-07-19', 'CV. CAKRAWALA KANAWA SEBUMI', '1763935000.00', '60 Hari Kalender', '2022-07-21', '2022-09-18', 'Tanggal Kontrak', 731);
+(721, '07/DPUPR-BJJb-PPK-Pemb.JL.SG.TMMD/2022', '2022-07-19', 'CV. CAKRAWALA KANAWA SEBUMI', '1763935000.00', '60 Hari Kalender', '2022-07-21', '2022-09-18', 'Tanggal Kontrak', 731),
+(722, '449.1/0277/APBD/PPK-Tender-Fis.PKM.M/Diskes', '2022-06-24', 'CV. Surya Agung', '3838498000.00', '180 Hari Kalender', '2022-06-24', '2022-12-20', '-', 861),
+(728, '07/DPUPR-BJJb-PPK-Pemb.Jl.LDS/2022', '2022-07-21', 'CV. BINTANG BORNEO BROTHERS', '6223231000.00', '150 Hari Kalender', '2022-07-25', '2022-12-21', 'Tanggal Kontrak', 733),
+(724, '07/DPUPR-BJJb-PPK-Pemb.Jl.BDHP/2022', '2022-07-22', 'CV. DUTA TEKNIK TENSINOVAN', '1657480000.00', '150 Hari Kalender', '2022-07-26', '2022-12-22', 'Tanggal Kontrak', 732),
+(725, '449.1/0275/APBD/PPK-Seleksi-Pws.PKM.M/Diskes', '2022-06-24', 'CV. Dayakarsa Madya Consultant', '221247000.00', '180 Hari Kalender', '2022-06-24', '2022-12-20', '-', 859),
+(726, '07/DPUPR-BJJb-PPK-PTPJJb-Was.Pemb/2022', '2022-06-22', 'CV. FIAZTA MATRIX CONSULTANT', '293190000.00', '150 Hari Kalender', '2022-07-01', '2022-11-27', 'Tanggal Kontrak', 947),
+(727, '07/DPUPR-BJJb-PPK-PTPJJb-Was.Rehab.Jl/2022', '2022-06-22', 'CV. RAMIER JAYA ARKANANTA', '325951000.00', '150 Hari Kalender', '2022-07-25', '2022-12-21', 'Tanggal Kontrak', 942),
+(729, '07/DPUPR-BJJb-PPK-PTPJJb-Was.PBTD/2022', '2022-06-22', 'CV. ADIHANMAN TATA RANCANG', '284287000.00', '150 Hari Kalender', '2022-07-25', '2022-12-21', 'Tanggal Kontrak', 946),
+(730, '07/DPUPR-BJJb-PPK-REHAB.Jl.P1/2022', '2022-07-22', 'CV. INTESSAR ABHATI SENTOSA', '2070861000.00', '150 Hari Kalender', '2022-07-26', '2022-12-22', 'Tanggal Kontrak', 930),
+(731, '07/DPUPR-BJJb-PPK-REHAB.Jl.P2/2022', '2022-07-25', 'PT. OPATGE', '2975413000.00', '150 Hari Kalender', '2022-07-27', '2022-12-23', 'Tanggal Kontrak', 931),
+(732, '07/DPUPR-BJJb-PPK-REHAB.Jl.P3/2022', '2022-07-21', 'CV. INTESSAR ABHATI SENTOSA', '2578315000.00', '150 Hari Kalender', '2022-07-25', '2022-12-21', 'Tanggal Kontrak', 932),
+(733, '07/DPUPR-BJJb-PPK-REHAB.Jl.P4/2022', '2022-07-21', 'CV. INTESSAR ABHATI SENTOSA', '1108117000.00', '150 Hari Kalender', '2022-07-25', '2022-12-21', 'Tanggal Kontrak', 933),
+(734, '07/DPUPR-BJJb-PPK-PBTD.Jl.P2/2022', '2022-07-26', 'CV. BINTANG BORNEO BROTHERS', '3992439000.00', '150 Hari Kalender', '2022-07-28', '2022-12-24', 'Tanggal Kontrak', 940),
+(735, '07/DPUPR-BJJb-PPK-PBTD.Jl.P3/2022', '2022-07-22', 'CV. SURYA AGUNG', '4298033000.00', '150 Hari Kalender', '2022-07-26', '2022-12-22', 'Tanggal Kontrak', 941),
+(736, '07/DPUPR-BJJb-PPK-PBTD.Jl.P1/2022', '2022-07-27', 'PT. SINAR JAYA BERSAUDARA', '4592530000.00', '150 Hari Kalender', '2022-07-28', '2022-12-24', 'Tanggal Kontrak', 939);
 
 -- --------------------------------------------------------
 
@@ -3778,7 +3829,10 @@ INSERT INTO `lokasi` (`id`, `latitude`, `longitude`, `deskripsi`, `pekerjaan`) V
 (1361, '-3.320920335', '114.589691162', 'Pemko Banjarmasin', 969),
 (1362, '-3.320006348', '114.591064453', 'Pemko Banjarmasin', 970),
 (1363, '-3.321377333', '114.591064453', 'Pemko Banjarmasin', 976),
-(1364, '-3.321377333', '114.592437744', 'Pemko Banjarmasin', 971);
+(1364, '-3.321377333', '114.592437744', 'Pemko Banjarmasin', 971),
+(1365, '-3.349379464', '114.547256649', 'Puskesmas Mantuil', 861),
+(1366, '-3.349381606', '114.547263622', 'Puskesmas Mantuil', 859),
+(1367, '-3.355520851', '114.623022884', 'Puskesmas Pemurus Dalam', 858);
 
 -- --------------------------------------------------------
 
@@ -4468,8 +4522,8 @@ INSERT INTO `pekerjaan` (`id`, `nama`, `kegiatan`, `deskripsi`, `skpd`, `jenis`,
 (729, 'Review Penyusunan Masterplan Jaringan Jalan Kota Banjarmasin', 'Penyusunan Rencana,Kebijakan,Strategi Pengembangan Jaringan Jalan serta Perencanaan Teknis Penyelenggaraan Jalan dan Jembatan', 'Review Penyusunan Masterplan Jaringan Jalan Kota Banjarmasin', 3, 3, 5, '500000000.00', 4, 288, '31661737', '6787024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31661737&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6787024/pengumumanlelang', 2022, NULL),
 (730, 'Penyusunan Leger Jalan di Kota Banjarmasin', 'Pengelolaan Leger Jalan', 'Penyusunan Leger Jalan di Kota Banjarmasin', 3, 3, 5, '607310000.00', 4, 288, '31570144', '6793024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31570144&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6793024/pengumumanlelang', 2022, NULL),
 (731, 'Belanja Bahan/Material Pekerjaan Pembangunan Jalan Sungai Gampa (TMMD)', 'Pembangunan Jalan', 'Belanja Bahan/Material Pekerjaan Pembangunan Jalan Sungai Gampa (TMMD)', 3, 2, 2, '1809990000.00', 4, 288, '31559731', '6861024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31559731&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6861024/pengumumanlelang', 2022, NULL),
-(732, 'Pembangunan Jalan ( Jl. Basirih Dalam - Jl. Handil Palung)', 'Pembangunan Jalan', 'Pembangunan Jalan (Jl. Basirih Dalam - Jl. Handil Palung)', 3, 2, 2, '2086000000.00', 1, 288, '31559715', '6883024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31559715&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6883024/pengumumanlelang', 2022, NULL),
-(733, 'Pembangunan Jalan ( Jl. Lingkar Dalam Selatan Menuju SMP 18 Lanjutan )', 'Pembangunan Jalan', 'Pembangunan Jalan (Jl. Lingkar Dalam Selatan Menuju SMP 18 (Lanjutan))', 3, 2, 2, '6635566000.00', 2, 288, '31559706', '6882024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31559706&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6882024/pengumumanlelang', 2022, NULL),
+(732, 'Pembangunan Jalan ( Jl. Basirih Dalam - Jl. Handil Palung)', 'Pembangunan Jalan', 'Pembangunan Jalan (Jl. Basirih Dalam - Jl. Handil Palung)', 3, 2, 2, '2086000000.00', 4, 288, '31559715', '6883024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31559715&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6883024/pengumumanlelang', 2022, NULL),
+(733, 'Pembangunan Jalan ( Jl. Lingkar Dalam Selatan Menuju SMP 18 Lanjutan )', 'Pembangunan Jalan', 'Pembangunan Jalan (Jl. Lingkar Dalam Selatan Menuju SMP 18 (Lanjutan))', 3, 2, 2, '6635566000.00', 4, 288, '31559706', '6882024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31559706&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6882024/pengumumanlelang', 2022, NULL),
 (734, 'Pelebaran Jalan (Jl. Benua Anyar Rt.01 Rw.01 Gg. Veteran )', 'Pelebaran Jalan Menuju Standar', 'Pelebaran Jalan (Jl. Banua Anyar RT.001 RW.001 Gg. Veteran)', 3, 2, 2, '805800000.00', 4, 288, '31769947', '6880024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31769947&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6880024/pengumumanlelang', 2022, NULL),
 (735, 'Pelebaran Jalan (Jl. Basirih Dalam)', 'Pelebaran Jalan Menuju Standar', 'Pelebaran Jalan (Jl. Basirih Dalam) ', 3, 2, 2, '3428435000.00', 1, 288, '31769934', '6855024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31769934&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6855024/pengumumanlelang', 2022, NULL),
 (736, 'Pelebaran Jalan (Jl. Gandapura)', 'Pelebaran Jalan Menuju Standar', 'Pelebaran Jalan (Jl. Gandapura)', 3, 2, 2, '4266000000.00', 1, 288, '31769919', '6889024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31769919&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6889024/pengumumanlelang', 2022, NULL),
@@ -4524,10 +4578,10 @@ INSERT INTO `pekerjaan` (`id`, `nama`, `kegiatan`, `deskripsi`, `skpd`, `jenis`,
 (927, 'Rekonstruksi Jalan   Paket 2', 'Rekonstruksi Jalan', 'Rekonstruksi Jalan Paket 2', 3, 2, 2, '3658437000.00', 4, 288, '32033216', '6874024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32033216&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6874024/pengumumanlelang', 2022, NULL),
 (928, 'Rekonstruksi Jalan   Paket 3', 'Rekonstruksi Jalan', 'Rekonstruksi Jalan Paket 3', 3, 2, 2, '3770829000.00', 4, 288, '32033307', '6875024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32033307&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6875024/pengumumanlelang', 2022, NULL),
 (929, 'Rekonstruksi Jalan   Paket 4', 'Rekonstruksi Jalan', 'Rekonstruksi Jalan Paket 4', 3, 2, 2, '3058497000.00', 4, 288, '32033360', '6876024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32033360&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6876024/pengumumanlelang', 2022, NULL),
-(930, 'Rehabilitasi Jalan  Paket 1', 'Rehabilitasi Jalan', 'Rehabilitasi Jalan Paket 1', 3, 2, 2, '2627724000.00', 1, 288, '32028756', '6870024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32028756&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6870024/pengumumanlelang', 2022, NULL),
-(931, 'Rehabilitasi Jalan  Paket 2', 'Rehabilitasi Jalan', 'Rehabilitasi Jalan Paket 2', 3, 2, 2, '3191532000.00', 1, 288, '32031311', '6871024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32031311&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6871024/pengumumanlelang', 2022, NULL),
-(932, 'Rehabilitasi Jalan  Paket 3', 'Rehabilitasi Jalan', 'Rehabilitasi Jalan Paket 3', 3, 2, 2, '2699323000.00', 1, 288, '32031382', '6872024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32031382&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6872024/pengumumanlelang', 2022, NULL),
-(933, 'Rehabilitasi Jalan  Paket 4', 'Rehabilitasi Jalan', 'Rehabilitasi Jalan Paket 4', 3, 2, 2, '1178018000.00', 1, 288, '32031462', '6873024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32031462&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6873024/pengumumanlelang', 2022, NULL),
+(930, 'Rehabilitasi Jalan  Paket 1', 'Rehabilitasi Jalan', 'Rehabilitasi Jalan Paket 1', 3, 2, 2, '2627724000.00', 4, 288, '32028756', '6870024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32028756&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6870024/pengumumanlelang', 2022, NULL),
+(931, 'Rehabilitasi Jalan  Paket 2', 'Rehabilitasi Jalan', 'Rehabilitasi Jalan Paket 2', 3, 2, 2, '3191532000.00', 4, 288, '32031311', '6871024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32031311&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6871024/pengumumanlelang', 2022, NULL),
+(932, 'Rehabilitasi Jalan  Paket 3', 'Rehabilitasi Jalan', 'Rehabilitasi Jalan Paket 3', 3, 2, 2, '2699323000.00', 4, 288, '32031382', '6872024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32031382&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6872024/pengumumanlelang', 2022, NULL),
+(933, 'Rehabilitasi Jalan  Paket 4', 'Rehabilitasi Jalan', 'Rehabilitasi Jalan Paket 4', 3, 2, 2, '1178018000.00', 4, 288, '32031462', '6873024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32031462&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6873024/pengumumanlelang', 2022, NULL),
 (934, 'Pemeliharaan Berkala Jalan  Paket 1', 'Pemeliharaan Berkala Jalan', 'Pemeliharaan Berkala Jalan Paket 1', 3, 2, 2, '5176800000.00', 4, 288, '31943432', '6867024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31943432&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6867024/pengumumanlelang', 2022, NULL),
 (935, 'Pemeliharaan Berkala Jalan  Paket 2', 'Pemeliharaan Berkala Jalan', 'Pemeliharaan Berkala Jalan Paket 2', 3, 2, 2, '3682524000.00', 4, 288, '32031802', '6868024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32031802&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6868024/pengumumanlelang', 2022, NULL),
 (936, 'Pemeliharaan Berkala Jalan  Paket 3', 'Pemeliharaan Berkala Jalan', 'Pemeliharaan Berkala Jalan Paket 3', 3, 2, 2, '4344084000.00', 4, 288, '32032091', '6869024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32032091&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6869024/pengumumanlelang', 2022, NULL),
@@ -4537,11 +4591,11 @@ INSERT INTO `pekerjaan` (`id`, `nama`, `kegiatan`, `deskripsi`, `skpd`, `jenis`,
 (855, 'Belanja Modal Personal Computer (Pengadaan Laptop)', 'Penyediaan Peralatan dan Perlengkapan Kantor', '', 2, 1, 4, '337818250.00', 9, 296, '-', '-', '#', '#', 2022, NULL),
 (856, 'Belanja Modal Pengadaan Komputer ( Penunjang Smart City ) Pengadaan Personal Computer (PC)', 'Penyediaan Peralatan dan Perlengkapan Kantor', '', 2, 1, 4, '252821100.00', 9, 296, '-', '-', '#', '#', 2022, NULL),
 (857, 'Belanja Modal Rehab Atap Dinas Kesehatan', 'Pemeliharaan/Rehabilitasi Gedung Kantor dan Bangunan Lainnya', '', 2, 2, 2, '493200000.00', 9, 296, '-', '-', '#', '#', 2022, NULL),
-(858, 'Belanja Jasa Konsultasi Perencanaan Arsitektur-Jasa Desain arsitektural (Konsultan DED Perencanaan Pembangunan Puskesmas Pemurus Dalam)', 'Rehabilitasi dan Pemeliharaan Puskesmas', '', 2, 3, 5, '350000000.00', 9, 295, '-', '-', '#', '#', 2022, NULL),
-(859, 'Belanja Jasa Konsultansi Pengawasan Rekayasa-Jasa Pengawas Pekerjaan Konstruksi Bangunan Gedung (Konsultan Pengawasan Rehab Total Puskesmas Mantuil', 'Rehabilitasi dan Pemeliharaan Puskesmas', '', 2, 3, 5, '270000000.00', 9, 295, '-', '-', '#', '#', 2022, NULL),
+(858, 'Belanja Jasa Konsultasi Perencanaan Arsitektur-Jasa Desain arsitektural (Konsultan DED Perencanaan Pembangunan Puskesmas Pemurus Dalam)', 'Rehabilitasi dan Pemeliharaan Puskesmas', 'Pemerintah Kota Banjarmasin selalu memperhatikan fasilitas kesehatan, terutama untuk menunjang pelayanan Kesehatan di Kota Banjarmasin, maka dari itu dipandang perlu dilakukan Rehab Total Pembangunan Puskesmas Pemurus Dalam yang berlokasi di Jl. Thamrin, Kelurahan Pemurus Dalam Kota Banjarmasin. Pekerjaan Rehab Total Pembangunan Puskesmas Pemurus Dalam yang dirancang oleh Konsultan Perencana dilakukan secara penuh tanggung jawab dan sebaik-baiknya sehingga dapat digunakan pengguna/ aparatur negara. Pekerjaan yang akan dilaksanakan merupakan bagian dari Pembangunan sarana pelayanan kesehatan Kota Banjarmasin.', 2, 3, 5, '350000000.00', 1, 295, '32352173', '0', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32352173&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/0/pengumumanlelang', 2022, NULL),
+(859, 'Belanja Jasa Konsultansi Pengawasan Rekayasa-Jasa Pengawas Pekerjaan Konstruksi Bangunan Gedung (Konsultan Pengawasan Rehab Total Puskesmas Mantuil', 'Rehabilitasi dan Pemeliharaan Puskesmas', 'Sesuai dengan ketentuan dalam Peraturan Menteri Pekerjaan Umum dan Perumahan Rakyat Nomor : 22/PRT/M/2018, tanggal 14 September 2018 tentang Pembangunan Bangunan Gedung Negara, menyatakan bahwa diperlukan jasa Pengawasan teknis, untuk kategori bangunan gedung negara dengan kriteria klasifikasi tidak sederhana dengan ketentuan jumlah lantai tidak lebih dari 2 (dua) lantai dan dengan luas bangunan lebih dari 500 m2 (lima ratus meter persegi). Karena ada pekerjaan Rehab Total Puskesmas Mantuil, maka diperlukan Jasa Konsultan Pengawas pekerjaan tersebut.  ', 2, 3, 5, '270000000.00', 4, 295, '32352195', '6823024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32352195&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6823024/pengumumanlelang', 2022, NULL),
 (1018, 'Belanja Modal Pengadaan Hematology Analyzer 5 Diff (DAK)', 'Pengadaan Alat Kesehatan/Alat Penunjang Medik Fasilitas Pelayanan Kesehatan', '', 2, 1, 4, '492000000.00', 9, 297, '-', '-', '#', '#', 2022, NULL),
-(861, 'Rehab Total Pembangunan Bangunan Puskesmas Mantuil', 'Rehabilitasi dan Pemeliharaan Puskesmas', '', 2, 2, 2, '4326000000.00', 9, 295, '-', '-', '#', '#', 2022, NULL),
-(862, 'Pembangunan Pagar Instalasi Farmasi', 'Rehabilitasi dan Pemeliharaan Fasilitas Kesehatan Lainnya', '', 2, 2, 2, '1271010000.00', 9, 295, '-', '-', '#', '#', 2022, NULL),
+(861, 'Rehab Total Pembangunan Bangunan Puskesmas Mantuil', 'Rehabilitasi dan Pemeliharaan Puskesmas', 'Seiring dengan peningkatan kebutuhan masyarakat terhadap pelayanan puskesmas, maka Puskesmas Mantuil kota Banjarmasin Perlu melakukan perbaikan pelayanan di bidang Kesehatan, baik terhadap masyarakat secara langsung maupun terhadap pelayanan internal untuk meningkatkan kinerja operasional terkait. Guna peningkatan  pelayanan  masyarakat  tersebut, terutama dalam bidang kesehatan Masyarakat khususnya Wilayah Kota Banjarmasin melihat kondisi Puskesmas Mantuil yang ada sekarang ini harus dilakukan rehab total untuk mendukung pelaksanaan pelayanan kesehatan masyarakat.', 2, 2, 2, '4326000000.00', 4, 295, '32352195', '6843024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32352195&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6843024/pengumumanlelang', 2022, NULL),
+(862, 'Pembangunan Pagar Instalasi Farmasi', 'Rehabilitasi dan Pemeliharaan Fasilitas Kesehatan Lainnya', 'Pemerintah Kota Banjarmasin selalu memperhatikan fasilitas kesehatan, terutama untuk menunjang pelayanan Kesehatan di Kota Banjarmasin, maka dari itu dipandang perlu dilakukan Pembangunan Pagar Instalasi Farmasi Kota Banjarmasin yang berlokasi di Jl. Lingkar Dalam, Kelurahan Kelayan Timur, Kecamatan Banjarmasin Selatan.\r\nSetiap fasilitas kesehatan harus dibuat dengan sebaik-baiknya, sehingga mampu memenuhi secara optimal fungsi sarana prasarana dimaksud dan dapat memenuhi kriteria teknis konstruksi kantor yang baik dari segi fungsi, mutu, biaya dan kriteria administrasi.\r\n', 2, 2, 2, '1271010000.00', 1, 295, '32202445', '0', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32202445&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/0/pengumumanlelang', 2022, NULL),
 (863, 'Belanja Modal Alat Kedokteran Umum (Pengadaan Hepa Filter)', 'Pengadaan Alat Kesehatan/Alat Penunjang Medik Fasilitas Pelayanan Kesehatan', '', 2, 1, 4, '311265000.00', 9, 297, '-', '-', '#', '#', 2022, NULL),
 (864, 'Belanja Modal Alat Kedokteran Gigi (Pengadaan Dental Unit)', 'Pengadaan Alat Kesehatan/Alat Penunjang Medik Fasilitas Pelayanan Kesehatan', '', 2, 1, 4, '532500000.00', 9, 297, '-', '-', '#', '#', 2022, NULL),
 (865, 'Belanja Modal Alat Kedokteran Jantung (Pengadaan Ventilator Plus HFO) DAK', 'Pengadaan Alat Kesehatan/Alat Penunjang Medik Fasilitas Pelayanan Kesehatan', '', 2, 1, 4, '9755967000.00', 9, 297, '-', '-', '#', '#', 2022, NULL),
@@ -4575,7 +4629,8 @@ INSERT INTO `pekerjaan` (`id`, `nama`, `kegiatan`, `deskripsi`, `skpd`, `jenis`,
 (893, 'Belanja Modal Peralatan Jaringan - Pengadaan Peralatan IT Command Center Baru', 'Penyelenggaraan Sistem Jaringan Intra Pemerintah Daerah', '', 14, 1, 2, '707669900.00', 9, 290, '-', '-', '#', '#', 2022, NULL),
 (894, 'Belanja Modal Peralatan Jaringan - Pengadaan Peralatan Wifi, Jaringan dan Kelengkapannya di 29 Lokasi ( SKPD,Kecamatan,Taman,Rumah Sakit,Rumah Dinas)', 'Penyelenggaraan Sistem Jaringan Intra Pemerintah Daerah', '', 14, 1, 2, '490166604.00', 9, 290, '-', '-', '#', '#', 2022, NULL),
 (895, 'Belanja Jasa Konsultasi Berorientasi Layanan-Jasa Khusus -Jasa Konsultan Pembuatan Dokumen Kajian Resiko Bencana', 'Penyusunan Kajian Resiko Bencana Kabupaten/Kota', '', 34, 3, 2, '300000000.00', 9, NULL, '-', '-', '#', '#', 2022, NULL),
-(896, 'Penyediaan Beras Kota (Rasko) untuk Warga Kurang Mampu yang Belum Tercover Program Sembako', 'Fasilitas Bantuan Sosial Kesejahteraan Keluarga', '', 7, 1, 2, '2608200000.00', 9, 303, '-', '-', '#', '#', 2022, NULL),
+(896, 'Penyediaan Beras Kota (Rasko) untuk Warga Kurang Mampu yang Belum Tercover Program Sembako', 'Fasilitas Bantuan Sosial Kesejahteraan Keluarga', '', 7, 1, 2, '2608200000.00', 9, 303, '-', '-', '#', '#', 2022, NULL);
+INSERT INTO `pekerjaan` (`id`, `nama`, `kegiatan`, `deskripsi`, `skpd`, `jenis`, `metode`, `pagu`, `progress_now`, `user`, `id_rup`, `id_lpse`, `link_rup`, `link_lpse`, `tahun_anggaran`, `multi_kontrak`) VALUES
 (899, 'Persediaan Makanan Pokok Pada Rumah Singgah Baiman', 'Penyediaan Permakanan', '', 7, 1, 2, '662809300.00', 9, 304, '-', '-', '#', '#', 2022, NULL),
 (900, 'Persediaan Permakanan untuk LKSA Kota Banjarmasin', 'Penyediaan Permakanan', '', 7, 1, 2, '660520000.00', 9, 304, '-', '-', '#', '#', 2022, NULL),
 (901, 'Belanja Modal Bangunan Gedung Kantor - Gedung UPT Banjarmasin Selatan', 'Pengadaan Gedung Kantor atau Bangunan Lainnya', '', 31, 2, 2, '723600000.00', 9, 317, '-', '-', '#', '#', 2022, NULL),
@@ -4586,14 +4641,13 @@ INSERT INTO `pekerjaan` (`id`, `nama`, `kegiatan`, `deskripsi`, `skpd`, `jenis`,
 (906, 'Pengadaan Mobil Angkut Personil/Peralatan/Rescue', 'Pengadaan Sarana dan Prasarana Pencegahan, Penanggulangan Kebakaran dan Alat Pelindung Diri', '', 43, 1, 4, '651655000.00', 9, NULL, '-', '-', '#', '#', 2022, NULL),
 (907, 'Pengadaan Mobil Fire Truck 3000-4000L', 'Pengadaan Sarana dan Prasarana Pencegahan, Penanggulangan Kebakaran dan Alat Pelindung Diri', '', 43, 1, 2, '1988100000.00', 9, NULL, '-', '-', '#', '#', 2022, NULL),
 (944, 'Pengawasan Sub Kegiatan Pelebaran Jalan Menuju Standar Tahun 2022', 'Pengawasan Teknis Penyelenggaraan Jalan/Jembatan', 'Pengawasan Sub Kegiatan Pelebaran Jalan Menuju Standar Tahun 2022', 3, 3, 5, '378312000.00', 4, 288, '31573821', '6679024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31573821&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6679024/pengumumanlelang', 2022, NULL),
-(939, 'Penanggulangan Bencana / Tanggap Darurat  Paket 1', 'Penanggulangan Bencana / Tanggap Darurat', 'Penanggulangan Bencana/Tanggap Darurat Paket 1', 3, 2, 2, '4838000000.00', 1, 288, '32032239', '6886024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32032239&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6886024/pengumumanlelang', 2022, NULL);
-INSERT INTO `pekerjaan` (`id`, `nama`, `kegiatan`, `deskripsi`, `skpd`, `jenis`, `metode`, `pagu`, `progress_now`, `user`, `id_rup`, `id_lpse`, `link_rup`, `link_lpse`, `tahun_anggaran`, `multi_kontrak`) VALUES
-(940, 'Penanggulangan Bencana / Tanggap Darurat  Paket 2', 'Penanggulangan Bencana / Tanggap Darurat', 'Penanggulangan Bencana/Tanggap Darurat Paket 2', 3, 2, 2, '4317260000.00', 1, 288, '32032963', '6887024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32032963&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6887024/pengumumanlelang', 2022, NULL),
-(941, 'Penanggulangan Bencana / Tanggap Darurat  Paket 3', 'Penanggulangan Bencana / Tanggap Darurat', 'Penanggulangan Bencana/Tanggap Darurat Paket 3', 3, 2, 2, '4601310000.00', 1, 288, '32033083', '6888024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32033083&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6888024/pengumumanlelang', 2022, NULL),
-(947, 'Pengawasan Sub Kegiatan Pembangunan Jalan Tahun 2022', 'Pengawasan Teknis Penyelenggaraan Jalan/Jembatan', 'Pengawasan Sub Kegiatan Pembangunan Jalan Tahun 2022 ', 3, 3, 5, '328812000.00', 3, 288, '31573862', '6677024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31573862&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6677024/pengumumanlelang', 2022, NULL),
+(939, 'Penanggulangan Bencana / Tanggap Darurat  Paket 1', 'Penanggulangan Bencana / Tanggap Darurat', 'Penanggulangan Bencana/Tanggap Darurat Paket 1', 3, 2, 2, '4838000000.00', 4, 288, '32032239', '6886024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32032239&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6886024/pengumumanlelang', 2022, NULL),
+(940, 'Penanggulangan Bencana / Tanggap Darurat  Paket 2', 'Penanggulangan Bencana / Tanggap Darurat', 'Penanggulangan Bencana/Tanggap Darurat Paket 2', 3, 2, 2, '4317260000.00', 4, 288, '32032963', '6887024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32032963&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6887024/pengumumanlelang', 2022, NULL),
+(941, 'Penanggulangan Bencana / Tanggap Darurat  Paket 3', 'Penanggulangan Bencana / Tanggap Darurat', 'Penanggulangan Bencana/Tanggap Darurat Paket 3', 3, 2, 2, '4601310000.00', 4, 288, '32033083', '6888024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=32033083&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6888024/pengumumanlelang', 2022, NULL),
+(947, 'Pengawasan Sub Kegiatan Pembangunan Jalan Tahun 2022', 'Pengawasan Teknis Penyelenggaraan Jalan/Jembatan', 'Pengawasan Sub Kegiatan Pembangunan Jalan Tahun 2022 ', 3, 3, 5, '328812000.00', 4, 288, '31573862', '6677024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31573862&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6677024/pengumumanlelang', 2022, NULL),
 (945, 'Pengawasan Sub Kegiatan Pemeliharaan Berkala Jalan Tahun 2022', 'Pengawasan Teknis Penyelenggaraan Jalan/Jembatan', 'Pengawasan Sub Kegiatan Pemeliharaan Berkala Jalan Tahun 2022', 3, 3, 5, '378312000.00', 4, 288, '31573853', '6680024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31573853&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6680024/pengumumanlelang', 2022, NULL),
-(946, 'Pengawasan Sub Kegiatan Penanggulangan Bencana/Tanggap Darurat Tahun 2022', 'Pengawasan Teknis Penyelenggaraan Jalan/Jembatan', 'Pengawasan Sub Kegiatan Penanggulangan Bencana/Tanggap Darurat Tahun 2022', 3, 3, 5, '378312000.00', 3, 288, '31573901', '6674024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31573901&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6674024/pengumumanlelang', 2022, NULL),
-(942, 'Pengawasan Sub Kegiatan Rehabilitasi Jalan Tahun 2022', 'Pengawasan Teknis Penyelenggaraan Jalan/Jembatan', 'Pengawasan Sub Kegiatan Rehabilitasi Jalan Tahun 2022', 3, 3, 5, '378312000.00', 3, 288, '31573843', '6676024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31573843&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6676024/pengumumanlelang', 2022, NULL),
+(946, 'Pengawasan Sub Kegiatan Penanggulangan Bencana/Tanggap Darurat Tahun 2022', 'Pengawasan Teknis Penyelenggaraan Jalan/Jembatan', 'Pengawasan Sub Kegiatan Penanggulangan Bencana/Tanggap Darurat Tahun 2022', 3, 3, 5, '378312000.00', 4, 288, '31573901', '6674024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31573901&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6674024/pengumumanlelang', 2022, NULL),
+(942, 'Pengawasan Sub Kegiatan Rehabilitasi Jalan Tahun 2022', 'Pengawasan Teknis Penyelenggaraan Jalan/Jembatan', 'Pengawasan Sub Kegiatan Rehabilitasi Jalan Tahun 2022', 3, 3, 5, '378312000.00', 4, 288, '31573843', '6676024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31573843&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6676024/pengumumanlelang', 2022, NULL),
 (943, 'Pengawasan Sub Kegiatan Rekonstruksi Jalan Tahun 2022', 'Pengawasan Teknis Penyelenggaraan Jalan/Jembatan', 'Pengawasan Sub Kegiatan Rekonstruksi Jalan Tahun 2022', 3, 3, 5, '378312000.00', 4, 288, '31573831', '6849024', 'https://sirup.lkpp.go.id/sirup/ro/cari?tahunAnggaran=2022&keyword=31573831&jenisPengadaan=0&metodePengadaan=0', 'http://lpse.banjarmasinkota.go.id/eproc4/lelang/6849024/pengumumanlelang', 2022, NULL),
 (908, 'Pembangunan Ruang Kelas SDN Benua Anyar 4', 'Penambahan Ruang Kelas Baru', '', 1, 2, 2, '383600000.00', 9, NULL, '-', '-', '#', '#', 2022, NULL),
 (909, 'Pembangunan Ruang Kelas SDN Kebun Bunga 9', 'Penambahan Ruang Kelas Baru', '', 1, 2, 2, '389080000.00', 9, NULL, '-', '-', '#', '#', 2022, NULL),
@@ -6465,7 +6519,19 @@ INSERT INTO `pic` (`id`, `nama`, `nip`, `status`, `tmt`, `kontak`, `pekerjaan`) 
 (1916, 'Ir. H. DEDY HAMDANI, ST, MT, IPM', '197501272005011010', 'kpa', '2022-04-28', '082159044525', 940),
 (1917, 'Kartika Estaurina, ST', '198208092006042013', 'pptk', '2022-04-28', '08115112200', 941),
 (1918, 'Ir. H. DEDY HAMDANI, ST, MT, IPM', '197501272005011010', 'ppk', '2022-04-28', '082159044525', 941),
-(1919, 'Ir. H. DEDY HAMDANI, ST, MT, IPM', '197501272005011010', 'kpa', '2022-04-28', '082159044525', 941);
+(1919, 'Ir. H. DEDY HAMDANI, ST, MT, IPM', '197501272005011010', 'kpa', '2022-04-28', '082159044525', 941),
+(1920, 'Dr. M. Ramadhan.,SE.,ME.,Ak.,CA', '196912081998031003', 'pa', '2022-04-22', '081257377889', 861),
+(1921, 'drg. Emma Ariesnawati, MM', '196804052002122006', 'ppk', '2022-01-01', '089501006161', 861),
+(1922, 'Arifah, S.KM, Mkes', '197412151999032005', 'pptk', '2022-01-01', '081389515115', 861),
+(1923, 'Dr. M. Ramadhan.,SE.,ME.,Ak.,CA', '196912081998031003', 'pa', '2022-04-22', '081257377889', 859),
+(1924, 'drg. Emma Ariesnawati, MM', '196804052002122006', 'ppk', '2022-01-01', '089501006161', 859),
+(1925, 'Arifah, S.KM, Mkes', '197412151999032005', 'pptk', '2022-01-01', '081389515115', 859),
+(1926, 'Dr. M. Ramadhan.,SE.,ME.,Ak.,CA', '196912081998031003', 'pa', '2022-04-22', '081257377889', 862),
+(1927, 'drg. Emma Ariesnawati, MM', '196804052002122006', 'ppk', '2022-01-01', '089501006161', 862),
+(1928, 'Arifah, S.KM, Mkes', '197412151999032005', 'pptk', '2022-01-01', '081389515115', 862),
+(1929, 'Dr. M. Ramadhan.,SE.,ME.,Ak.,CA', '196912081998031003', 'pa', '2022-04-22', '081257377889', 858),
+(1930, 'drg. Emma Ariesnawati, MM', '196804052002122006', 'ppk', '2022-01-01', '089501006161', 858),
+(1931, 'Arifah, S.KM, Mkes', '197412151999032005', 'pptk', '2022-01-01', '081389515115', 858);
 
 -- --------------------------------------------------------
 
@@ -9642,7 +9708,47 @@ INSERT INTO `progress_pekerjaan` (`id`, `pekerjaan`, `progress`, `tgl_progress`,
 (4408, 734, 3, '2022-07-06', 4, '2022-07-15', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-21 14:02:30'),
 (4409, 734, 4, '2022-07-15', 5, '2022-12-15', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-21 14:24:51'),
 (4410, 731, 3, '2022-07-11', 4, '2022-07-19', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-22 11:58:52'),
-(4411, 731, 4, '2022-07-19', 5, '2022-09-18', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-22 12:00:05');
+(4411, 731, 4, '2022-07-19', 5, '2022-09-18', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-22 12:00:05'),
+(4412, 733, 3, '2022-07-15', 4, '2022-07-21', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-27 09:27:53'),
+(4413, 733, 4, '2022-07-21', 5, '2022-12-21', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 12:12:42'),
+(4414, 861, 1, '2022-05-11', 2, '2022-05-31', 'Pengajuan ke LPSE', '0.00', '0.00', '2022-07-27 13:26:01'),
+(4415, 861, 2, '2022-05-31', 3, '2022-06-22', 'Pengumuman Pascakualifikasi', '0.00', '0.00', '2022-07-27 13:40:24'),
+(4417, 861, 3, '2022-06-22', 4, '2022-06-24', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-27 13:49:39'),
+(4418, 861, 4, '2022-06-24', 5, '2022-12-20', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 13:50:57'),
+(4419, 861, 4, '2022-06-28', 5, '2022-12-20', 'Pelaksanaan Pekerjaan Telah Memasuki X Hari Kalender', '1151549400.00', '0.00', '2022-07-27 13:54:59'),
+(4420, 859, 1, '2022-04-14', 2, '2022-04-26', 'Pengajuan ke LPSE', '0.00', '0.00', '2022-07-27 14:00:32'),
+(4421, 859, 2, '2022-04-26', 3, '2022-06-23', 'Pengumuman Prakualifikasi', '0.00', '0.00', '2022-07-27 14:04:33'),
+(4423, 859, 3, '2022-06-23', 4, '2022-06-24', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-27 14:10:37'),
+(4424, 859, 4, '2022-06-24', 5, '2022-12-20', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 14:11:16'),
+(4425, 732, 2, '2022-05-31', 3, '2022-07-14', 'Pengumuman Pascakualifikasi', '0.00', '0.00', '2022-07-27 14:23:22'),
+(4426, 732, 3, '2022-07-14', 4, '2022-07-22', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-27 14:24:22'),
+(4427, 732, 4, '2022-07-22', 5, '2022-12-22', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 14:27:35'),
+(4428, 947, 4, '2022-06-22', 5, '2022-11-27', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 14:42:08'),
+(4429, 942, 4, '2022-06-22', 5, '2022-12-21', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 14:47:54'),
+(4430, 946, 4, '2022-06-22', 5, '2022-12-21', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 15:09:03'),
+(4431, 930, 2, '2022-06-08', 3, '2022-07-19', 'Pengumuman Pascakualifikasi', '0.00', '0.00', '2022-07-27 15:18:15'),
+(4432, 930, 3, '2022-07-19', 4, '2022-07-22', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-27 15:18:47'),
+(4433, 930, 4, '2022-07-22', 5, '2022-12-22', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 15:19:27'),
+(4434, 931, 2, '2022-06-08', 3, '2022-07-15', 'Pengumuman Pascakualifikasi', '0.00', '0.00', '2022-07-27 15:25:44'),
+(4435, 931, 3, '2022-07-15', 4, '2022-07-25', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-27 15:26:13'),
+(4436, 931, 4, '2022-07-25', 5, '2022-12-23', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 15:26:49'),
+(4437, 932, 2, '2022-06-08', 3, '2022-07-15', 'Pengumuman Pascakualifikasi', '0.00', '0.00', '2022-07-27 15:34:00'),
+(4438, 932, 3, '2022-07-15', 4, '2022-07-21', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-27 15:40:32'),
+(4439, 932, 4, '2022-07-21', 5, '2022-12-21', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 15:41:59'),
+(4440, 933, 2, '2022-06-08', 3, '2022-07-15', 'Pengumuman Pascakualifikasi', '0.00', '0.00', '2022-07-27 15:45:31'),
+(4441, 933, 3, '2022-07-15', 4, '2022-07-21', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-27 15:46:09'),
+(4442, 933, 4, '2022-07-21', 5, '2022-12-21', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 15:46:36'),
+(4443, 940, 2, '2022-06-07', 3, '2022-07-19', 'Pengumuman Pascakualifikasi', '0.00', '0.00', '2022-07-27 15:59:33'),
+(4444, 940, 3, '2022-07-19', 4, '2022-07-26', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-27 16:43:55'),
+(4445, 940, 4, '2022-07-26', 5, '2022-12-24', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 16:44:17'),
+(4446, 941, 2, '2022-06-08', 3, '2022-07-14', 'Pengumuman Pascakualifikasi', '0.00', '0.00', '2022-07-27 17:00:57'),
+(4447, 941, 3, '2022-07-14', 4, '2022-07-22', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-27 17:01:38'),
+(4448, 941, 4, '2022-07-22', 5, '2022-12-22', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-27 17:02:03'),
+(4449, 862, 1, '2022-07-26', 2, '2022-08-02', 'Pengajuan ke LPSE', '0.00', '0.00', '2022-07-28 10:35:00'),
+(4450, 939, 2, '2022-06-08', 3, '2022-07-14', 'Pengumuman Pascakualifikasi', '0.00', '0.00', '2022-07-28 13:33:48'),
+(4451, 939, 3, '2022-07-14', 4, '2022-07-27', 'Penetapan Surat Penunjukan Penyedia Barang/Jasa', '0.00', '0.00', '2022-07-28 13:57:25'),
+(4452, 939, 4, '2022-07-27', 5, '2022-12-24', 'Penandatanganan Kontrak', '0.00', '0.00', '2022-07-28 13:57:56'),
+(4453, 858, 1, '2022-07-28', 2, '2022-08-05', 'Pengajuan ke LPSE', '0.00', '0.00', '2022-08-01 07:41:09');
 
 -- --------------------------------------------------------
 
@@ -10137,19 +10243,19 @@ ALTER TABLE `jenis`
 -- AUTO_INCREMENT untuk tabel `kondisi_img`
 --
 ALTER TABLE `kondisi_img`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2092;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2129;
 
 --
 -- AUTO_INCREMENT untuk tabel `kontrak`
 --
 ALTER TABLE `kontrak`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=722;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=737;
 
 --
 -- AUTO_INCREMENT untuk tabel `lokasi`
 --
 ALTER TABLE `lokasi`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1365;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1368;
 
 --
 -- AUTO_INCREMENT untuk tabel `metode`
@@ -10167,7 +10273,7 @@ ALTER TABLE `pekerjaan`
 -- AUTO_INCREMENT untuk tabel `pic`
 --
 ALTER TABLE `pic`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1920;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1932;
 
 --
 -- AUTO_INCREMENT untuk tabel `progress`
@@ -10185,7 +10291,7 @@ ALTER TABLE `progress_option`
 -- AUTO_INCREMENT untuk tabel `progress_pekerjaan`
 --
 ALTER TABLE `progress_pekerjaan`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4412;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4454;
 
 --
 -- AUTO_INCREMENT untuk tabel `serah_terima`
