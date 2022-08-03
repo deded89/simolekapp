@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
   <![endif]-->
 
   <!-- ONESIGNAL -->
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <!-- <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
           <script>
           <?php
           if ($this->ion_auth->logged_in())
@@ -80,10 +80,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
             });
           };
 
-            </script>
+            </script> -->
 <!-- #################################################### -->
 <!-- PRELOADER -->
-  <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+  
   <style type="text/css">
   .preloader {
     position: fixed;
@@ -103,6 +103,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     font: 14px arial;
   }
   </style>
+<!-- jQuery 2.2.3 -->
+<script src="<?php echo base_url();?>assets/plugins/jQuery/jquery-2.2.3.min.js"></script>
 <script>
   $(document).ready(function(){
     $(".preloader").fadeOut();
