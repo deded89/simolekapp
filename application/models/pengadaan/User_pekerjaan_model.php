@@ -34,7 +34,6 @@ class User_pekerjaan_model extends CI_Model{
     $this->db2->where('tahun_anggaran',$this->session->userdata('tahun_anggaran'));
     $this->db2->order_by('p.skpd','asc');
     $this->db2->order_by('p.pagu','desc');
-    var_dump($this->db2->get());die();
     return $this->db2->get()->result();
   }
 
